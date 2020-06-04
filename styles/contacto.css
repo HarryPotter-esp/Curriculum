@@ -1,0 +1,56 @@
+/* CONTENIDO / TEXTO */
+#contenido {
+	/*border: solid 1px; /* Pruebas - AÑADE SCROLL HORIZONTAL*/
+	width: 					100%;
+	display: flex;
+	justify-content: center;
+}
+
+/* INFORMACIÓN */
+		#principal {
+		width: 					40%;
+		background-color:		white;
+		padding: 5%;
+		padding-top: 2.5%;
+		border: 				solid 1px;
+
+		position: 				relative;			/* IMPORTANTE - POSICIONAMIENTO - EFECTO INCRUSTADO. */
+		bottom: 				60px;
+		}
+
+		form {
+			margin-top: 30px;
+		}
+
+			.gris {
+				color: grey;
+			}
+
+	#principal p {
+		margin: 0; /* Separación de los párrafos con las label */
+	}
+
+	input{
+		margin-bottom: 30px;
+	}
+
+	input.largo {
+		width: 100%;
+	}
+
+	textarea {
+		width:					100%;
+		height:					150px;
+		margin-bottom:			30px; /* Margen con el submit button. */
+	}
+
+
+
+
+h4 {
+	font-size: 40px;
+}
+
+p.grande{
+	font-size: 20px;
+}
